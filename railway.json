@@ -4,7 +4,7 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-       "startCommand": "gunicorn main:app -b [::]3000",
+       "startCommand": "gunicorn main:app",
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
     }
