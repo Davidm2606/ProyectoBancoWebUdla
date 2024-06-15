@@ -9,7 +9,7 @@ db = pymysql.connect(
     user='root',
     password='JerjmpIollGSogqYYUrBIeYNFmcbRUgu',
     database='railway',
-    port='47303',
+    port=47303,
     cursorclass=pymysql.cursors.DictCursor
 )
 
