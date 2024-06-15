@@ -173,4 +173,4 @@ def procesar_deposito():
 
 if __name__ == '__main__':
     app.secret_key = 'supersecretkey'
-    app.run(debug=True, port=5500)
+app.run(debug=True, port=os.getenv("PORT", default=5000))
