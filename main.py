@@ -5,11 +5,11 @@ import os
 app = Flask(__name__)
 
 db = pymysql.connect(
-    host=os.getenv('DB_HOST'),
-    user=os.getenv('DB_USER'),
-    password=os.getenv('DB_PASSWORD'),
-    database=os.getenv('DB_NAME'),
-    port=os.getenv('DB_PORT'),
+    host='roundhouse.proxy.rlwy.net',
+    user='root',
+    password='JerjmpIollGSogqYYUrBIeYNFmcbRUgu',
+    database='railway',
+    port='47303',
     cursorclass=pymysql.cursors.DictCursor
 )
 
